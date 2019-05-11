@@ -1,23 +1,21 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
 import '../assets/sass/main.scss';
 const Header = () => (
   <header id="header">
-    <a href="/" class="title">
+    <Link className="title" to="/">
       Hyperspace
-    </a>
+    </Link>
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/generic">Generic</a>
+          <Link to="/generic">Generic</Link>
         </li>
         <li>
-          <a href="/elements" class="active">
-            Elements
-          </a>
+          <Link to="/elements">Elements</Link>
         </li>
       </ul>
     </nav>

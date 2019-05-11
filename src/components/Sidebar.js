@@ -32,7 +32,7 @@ export class Sidebar extends Component {
                 return (
                   <li key={href}>
                     <a
-                      href="/"
+                      href="#/"
                       className={i === activeTab ? 'active' : ''}
                       onClick={e => {
                         e.preventDefault();

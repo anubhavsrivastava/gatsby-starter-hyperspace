@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/gatsby-starter-hyperspace`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
     title: 'Gatsby Starter Hyperspace',
   },
@@ -19,4 +20,4 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
-}
+};

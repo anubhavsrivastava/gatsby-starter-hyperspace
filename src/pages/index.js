@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
@@ -48,9 +48,9 @@ const IndexPage = () => (
               </p>
               <ul className="actions">
                 <li>
-                  <a href="/generic" className="button">
+                  <Link className="button" to="/generic">
                     Learn more
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -70,9 +70,9 @@ const IndexPage = () => (
               </p>
               <ul className="actions">
                 <li>
-                  <a href="/generic" className="button">
+                  <Link className="button" to="/generic">
                     Learn more
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -92,9 +92,9 @@ const IndexPage = () => (
               </p>
               <ul className="actions">
                 <li>
-                  <a href="/generic" className="button">
+                  <Link className="button" to="/generic">
                     Learn more
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -163,9 +163,9 @@ const IndexPage = () => (
           </div>
           <ul className="actions">
             <li>
-              <a href="/generic" className="button">
+              <Link className="button" to="/generic">
                 Learn more
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
