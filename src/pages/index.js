@@ -6,29 +6,11 @@ import Footer from '../components/Footer';
 import pic1 from '../images/pic01.jpg';
 import pic2 from '../images/pic02.jpg';
 import pic3 from '../images/pic03.jpg';
+import Sidebar from '../components/Sidebar';
 
 const IndexPage = () => (
   <Layout>
-    <section id="sidebar">
-      <div className="inner">
-        <nav>
-          <ul>
-            <li>
-              <a href="#intro">Welcome</a>
-            </li>
-            <li>
-              <a href="#one">Who we are</a>
-            </li>
-            <li>
-              <a href="#two">What we do</a>
-            </li>
-            <li>
-              <a href="#three">Get in touch</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </section>
+    <Sidebar />
 
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
