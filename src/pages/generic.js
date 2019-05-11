@@ -2,20 +2,23 @@ import React from 'react';
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout';
+import Footer from '../components/Footer';
+
+import pic4 from '../images/pic04.jpg';
 
 const SecondPage = () => (
   <Layout>
     <header id="header">
-      <a href="index.html" className="title">
+      <a href="/" className="title">
         Hyperspace
       </a>
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="generic.html" className="active">
+            <a href="/generic" className="active">
               Generic
             </a>
           </li>
@@ -31,7 +34,7 @@ const SecondPage = () => (
         <div className="inner">
           <h1 className="major">A Generic Page</h1>
           <span className="image fit">
-            <img src="images/pic04.jpg" alt="" />
+            <img src={pic4} alt="" />
           </span>
           <p>
             Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
@@ -55,16 +58,7 @@ const SecondPage = () => (
       </section>
     </div>
 
-    <footer id="footer" className="wrapper alt">
-      <div className="inner">
-        <ul className="menu">
-          <li>&copy; Untitled. All rights reserved.</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <Footer />
   </Layout>
 );
 

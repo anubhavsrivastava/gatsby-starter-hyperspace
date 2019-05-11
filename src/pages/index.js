@@ -2,6 +2,10 @@ import React from 'react';
 // import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
+import Footer from '../components/Footer';
+import pic1 from '../images/pic01.jpg';
+import pic2 from '../images/pic02.jpg';
+import pic3 from '../images/pic03.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -50,7 +54,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper style2 spotlights">
         <section>
           <a href="/#" className="image" alt="image">
-            <img src="images/pic01.jpg" alt="" data-position="center center" />
+            <img src={pic1} alt="" data-position="center center" />
           </a>
           <div className="content">
             <div className="inner">
@@ -72,7 +76,7 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img src="images/pic02.jpg" alt="" data-position="top center" />
+            <img src={pic2} alt="" data-position="top center" />
           </a>
           <div className="content">
             <div className="inner">
@@ -94,7 +98,7 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img src="images/pic03.jpg" alt="" data-position="25% 25%" />
+            <img src={pic3} alt="" data-position="25% 25%" />
           </a>
           <div className="content">
             <div className="inner">
@@ -277,16 +281,7 @@ const IndexPage = () => (
       </section>
     </div>
 
-    <footer id="footer" className="wrapper style1-alt">
-      <div className="inner">
-        <ul className="menu">
-          <li>&copy; Untitled. All rights reserved.</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <Footer />
   </Layout>
 );
 
