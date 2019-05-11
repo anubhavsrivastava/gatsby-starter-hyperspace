@@ -21,7 +21,7 @@ const SecondPage = () => (
               <i>italic</i> and this is <em>emphasized</em>. This is{' '}
               <sup>superscript</sup> text and this is <sub>subscript</sub> text.
               This is <u>underlined</u> and this is code: <code>for (;;) </code>
-              . Finally, <a href="#">this is a link</a>.
+              . Finally, <a href="/">this is a link</a>.
             </p>
             <hr />
             <p>
@@ -84,22 +84,22 @@ const SecondPage = () => (
                 <h3>Icons</h3>
                 <ul class="icons">
                   <li>
-                    <a href="#" class="icon fa-twitter">
+                    <a href="/" class="icon fa-twitter">
                       <span class="label">Twitter</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icon fa-facebook">
+                    <a href="/" class="icon fa-facebook">
                       <span class="label">Facebook</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icon fa-instagram">
+                    <a href="/" class="icon fa-instagram">
                       <span class="label">Instagram</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icon fa-github">
+                    <a href="/" class="icon fa-github">
                       <span class="label">Github</span>
                     </a>
                   </li>
@@ -111,48 +111,48 @@ const SecondPage = () => (
               <div class="col-6 col-12-medium">
                 <ul class="actions">
                   <li>
-                    <a href="#" class="button primary">
+                    <a href="/" class="button primary">
                       Default
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button">
+                    <a href="/" class="button">
                       Default
                     </a>
                   </li>
                 </ul>
                 <ul class="actions small">
                   <li>
-                    <a href="#" class="button primary small">
+                    <a href="/" class="button primary small">
                       Small
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button small">
+                    <a href="/" class="button small">
                       Small
                     </a>
                   </li>
                 </ul>
                 <ul class="actions stacked">
                   <li>
-                    <a href="#" class="button primary">
+                    <a href="/" class="button primary">
                       Default
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button">
+                    <a href="/" class="button">
                       Default
                     </a>
                   </li>
                 </ul>
                 <ul class="actions stacked">
                   <li>
-                    <a href="#" class="button primary small">
+                    <a href="/" class="button primary small">
                       Small
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button small">
+                    <a href="/" class="button small">
                       Small
                     </a>
                   </li>
@@ -161,24 +161,24 @@ const SecondPage = () => (
               <div class="col-6 col-12-medium">
                 <ul class="actions stacked">
                   <li>
-                    <a href="#" class="button primary fit">
+                    <a href="/" class="button primary fit">
                       Default
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button fit">
+                    <a href="/" class="button fit">
                       Default
                     </a>
                   </li>
                 </ul>
                 <ul class="actions stacked">
                   <li>
-                    <a href="#" class="button primary small fit">
+                    <a href="/" class="button primary small fit">
                       Small
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="button small fit">
+                    <a href="/" class="button small fit">
                       Small
                     </a>
                   </li>
@@ -286,80 +286,80 @@ const SecondPage = () => (
             <h3>Buttons</h3>
             <ul class="actions">
               <li>
-                <a href="#" class="button primary">
+                <a href="/" class="button primary">
                   Primary
                 </a>
               </li>
               <li>
-                <a href="#" class="button">
+                <a href="/" class="button">
                   Default
                 </a>
               </li>
             </ul>
             <ul class="actions">
               <li>
-                <a href="#" class="button large">
+                <a href="/" class="button large">
                   Large
                 </a>
               </li>
               <li>
-                <a href="#" class="button">
+                <a href="/" class="button">
                   Default
                 </a>
               </li>
               <li>
-                <a href="#" class="button small">
+                <a href="/" class="button small">
                   Small
                 </a>
               </li>
             </ul>
             <ul class="actions fit">
               <li>
-                <a href="#" class="button primary fit">
+                <a href="/" class="button primary fit">
                   Fit
                 </a>
               </li>
               <li>
-                <a href="#" class="button fit">
+                <a href="/" class="button fit">
                   Fit
                 </a>
               </li>
               <li>
-                <a href="#" class="button fit">
+                <a href="/" class="button fit">
                   Fit
                 </a>
               </li>
             </ul>
             <ul class="actions fit small">
               <li>
-                <a href="#" class="button primary fit small">
+                <a href="/" class="button primary fit small">
                   Fit + Small
                 </a>
               </li>
               <li>
-                <a href="#" class="button fit small">
+                <a href="/" class="button fit small">
                   Fit + Small
                 </a>
               </li>
               <li>
-                <a href="#" class="button fit small">
+                <a href="/" class="button fit small">
                   Fit + Small
                 </a>
               </li>
             </ul>
             <ul class="actions">
               <li>
-                <a href="#" class="button primary icon fa-download">
+                <a href="/" class="button primary icon fa-download">
                   Icon
                 </a>
               </li>
               <li>
-                <a href="#" class="button icon fa-upload">
+                <a href="/" class="button icon fa-upload">
                   Icon
                 </a>
               </li>
               <li>
-                <a href="#" class="button icon fa-save">
+                <a href="/" class="button icon fa-save">
                   Icon
                 </a>
               </li>
