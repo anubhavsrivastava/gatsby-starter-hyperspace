@@ -21,7 +21,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new gatsby-example-site
+gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-hyperspace
 ```
 
 Then you can run it by:
