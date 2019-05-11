@@ -28,5 +28,6 @@ Then you can run it by:
 
 ```sh
 cd gatsby-example-site
+npm install
 gatsby develop
 ```
