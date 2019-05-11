@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
@@ -39,7 +39,7 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
+              <a href="#one" className="button">
                 Learn more
               </a>
             </li>
@@ -49,7 +49,7 @@ const IndexPage = () => (
 
       <section id="one" className="wrapper style2 spotlights">
         <section>
-          <a href="#" className="image">
+          <a href="/#" className="image" alt="image">
             <img src="images/pic01.jpg" alt="" data-position="center center" />
           </a>
           <div className="content">
@@ -71,7 +71,7 @@ const IndexPage = () => (
           </div>
         </section>
         <section>
-          <a href="#" className="image">
+          <a href="/#" className="image">
             <img src="images/pic02.jpg" alt="" data-position="top center" />
           </a>
           <div className="content">
@@ -93,7 +93,7 @@ const IndexPage = () => (
           </div>
         </section>
         <section>
-          <a href="#" className="image">
+          <a href="/#" className="image">
             <img src="images/pic03.jpg" alt="" data-position="25% 25%" />
           </a>
           <div className="content">
@@ -213,7 +213,7 @@ const IndexPage = () => (
                 </div>
                 <ul className="actions">
                   <li>
-                    <a href="" className="button submit">
+                    <a href="/#" className="button submit">
                       Send Message
                     </a>
                   </li>
@@ -234,7 +234,7 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Email</h3>
-                  <a href="#">user@untitled.tld</a>
+                  <a href="/#">user@untitled.tld</a>
                 </li>
                 <li>
                   <h3>Phone</h3>
@@ -244,27 +244,27 @@ const IndexPage = () => (
                   <h3>Social</h3>
                   <ul className="icons">
                     <li>
-                      <a href="#" className="fa-twitter">
+                      <a href="/#" className="fa-twitter">
                         <span className="label">Twitter</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="fa-facebook">
+                      <a href="/#" className="fa-facebook">
                         <span className="label">Facebook</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="fa-github">
+                      <a href="/#" className="fa-github">
                         <span className="label">GitHub</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="fa-instagram">
+                      <a href="/#" className="fa-instagram">
                         <span className="label">Instagram</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="fa-linkedin">
+                      <a href="/#" className="fa-linkedin">
                         <span className="label">LinkedIn</span>
                       </a>
                     </li>
