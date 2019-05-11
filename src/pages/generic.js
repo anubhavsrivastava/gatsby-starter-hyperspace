@@ -5,29 +5,11 @@ import Layout from '../components/layout';
 import Footer from '../components/Footer';
 
 import pic4 from '../images/pic04.jpg';
+import Header from '../components/Header';
 
 const SecondPage = () => (
   <Layout>
-    <header id="header">
-      <a href="/" className="title">
-        Hyperspace
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/generic" className="active">
-              Generic
-            </a>
-          </li>
-          <li>
-            <a href="elements.html">Elements</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <Header />
 
     <div id="wrapper">
       <section id="main" className="wrapper">
