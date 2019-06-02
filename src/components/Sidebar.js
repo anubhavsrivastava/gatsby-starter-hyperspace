@@ -1,50 +1,42 @@
 import React, { Component } from 'react';
+import Scrollspy from 'react-scrollspy';
+import Scroll from './Scroll';
 
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeTab: 0,
       tabs: [
-        { content: 'Welcome', href: '#intro' },
-        { content: 'Who we are', href: '#one' },
-        { content: 'What we do', href: '#two' },
-        { content: 'Get in touch', href: '#three' },
+        { content: 'Welcome', href: 'intro' },
+        { content: 'Who we are', href: 'one' },
+        { content: 'What we do', href: 'two' },
+        { content: 'Get in touch', href: 'three' },
       ],
     };
-
-    this.onTabSelect = this.onTabSelect.bind(this);
-  }
-
-  onTabSelect(index) {
-    this.setState({ activeTab: index });
   }
 
   render() {
-    const { tabs, activeTab } = this.state;
+    const { tabs } = this.state;
     return (
       <section id="sidebar">
         <div className="inner">
           <nav>
-            <ul>
+            <Scrollspy
+              items={tabs.map(s => s.href)}
+              currentClassName="active"
+              offset={-300}
+            >
               {tabs.map((tab, i) => {
                 const { href, content } = tab;
                 return (
                   <li key={href}>
-                    <a
-                      href="#/"
-                      className={i === activeTab ? 'active' : ''}
-                      onClick={e => {
-                        e.preventDefault();
-                        this.onTabSelect(i);
-                      }}
-                    >
-                      {content}
-                    </a>
+                    <Scroll type="id" element={href}>
+                      <a href={`#${href}`}>{content}</a>
+                    </Scroll>
                   </li>
                 );
               })}
-            </ul>
+            </Scrollspy>
           </nav>
         </div>
       </section>
