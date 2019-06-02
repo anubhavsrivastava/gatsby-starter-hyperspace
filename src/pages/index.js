@@ -7,6 +7,7 @@ import pic1 from '../images/pic01.jpg';
 import pic2 from '../images/pic02.jpg';
 import pic3 from '../images/pic03.jpg';
 import Sidebar from '../components/Sidebar';
+import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
@@ -25,9 +26,11 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button">
-                Learn more
-              </a>
+              <Scroll type="id" element="one">
+                <a href="#one" className="button">
+                  Learn more
+                </a>
+              </Scroll>
             </li>
           </ul>
         </div>
