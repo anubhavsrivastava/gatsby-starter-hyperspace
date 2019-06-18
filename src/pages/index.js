@@ -16,7 +16,8 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <img src="https://github.com/casterminator/gatsby-starter-hyperspace/blob/master/src/images/Din_Logo_White_tprnt.png" alt="logo" />
+          <img style="display: inline;" src="https://github.com/casterminator/gatsby-starter-hyperspace/blob/master/src/images/Din_Logo_White_tprnt.png" alt="logo" />
+          <h1 style="display: inline;">Dinero</h1>
           <h1>DINERO Coin</h1>
           <p>
             Dependable Decentralized Global Transactions
