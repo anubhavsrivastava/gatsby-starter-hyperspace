@@ -7,7 +7,7 @@ const Footer = () => (
       <ul className="menu">
         <li>Dinero Coin Project. All rights reserved.</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="https://github.com/anubhavsrivastava/gatsby-starter-hyperspace">Anubhav Srivastava</a>
         </li>
       </ul>
     </div>
