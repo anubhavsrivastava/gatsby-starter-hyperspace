@@ -119,7 +119,8 @@ const IndexPage = () => (
               <span className="icon major fa-lock" />
               <h3>SECURE</h3>
               <p>
-                Transactions are validated and secured by DINERO Miners and Dinero Masternodes Holders globally.
+                Transactions are validated and secured by DINERO Miners and Dinero Masternodes Holders globally. To view current DINERO Blockchain Transactions, click{' '}
+              <a href="http://explorer.dinerocoin.org/">here</a>.
               </p>
             </section>
             <section>
