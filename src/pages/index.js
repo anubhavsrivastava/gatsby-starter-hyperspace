@@ -171,12 +171,9 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper style1 fade-up">
         <div className="inner">
-          <h2>Get in touch</h2>
+          <h2>Contact Us</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
+          Please read the FAQ section before contacting us. DINERO CANNOT help with any type of passphrase problems. If you lose your passphrase your DIN is gone forever! Feel free to contact us with any other questions or join Discord for live support from our community.
           </p>
           <div className="split style1">
             <section>
@@ -207,22 +204,8 @@ const IndexPage = () => (
             <section>
               <ul className="contact">
                 <li>
-                  <h3>Address</h3>
-                  <span>
-                    12345 Somewhere Road #654
-                    <br />
-                    Nashville, TN 00000-0000
-                    <br />
-                    USA
-                  </span>
-                </li>
-                <li>
                   <h3>Email</h3>
-                  <a href="/#">user@untitled.tld</a>
-                </li>
-                <li>
-                  <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
+                  <a href="/#">dev@dinerocoin.org</a>
                 </li>
                 <li>
                   <h3>Social</h3>
