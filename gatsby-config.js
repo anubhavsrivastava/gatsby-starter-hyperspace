@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: `/Dinero Coin - CryptoCurrency - Private Global Instant Payments - Masternodes/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/gatsby-starter-hyperspace/`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
-    title: 'Gatsby Starter Hyperspace',
+    title: 'Dinero Coin - CryptoCurrency - Private Instant Payments Globally - Masternodes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
