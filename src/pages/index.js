@@ -162,9 +162,9 @@ const IndexPage = () => (
           <ul className="actions">
             <li>
               <Link className="button" to="/generic">
-                Learn more
+              Download Wallets
               </Link>
-            </li>
+             </li>
           </ul>
         </div>
       </section>
