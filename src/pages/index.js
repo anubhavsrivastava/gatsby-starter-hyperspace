@@ -20,10 +20,8 @@ const IndexPage = () => (
           <p>
             Dependable Decentralized Global Transactions
           <br />
-          <br >
             To view current DINERO Blockchain Transactions, click{' '}
             <a href="http://explorer.dinerocoin.org/">here</a>.
-          <br />
           </p>
           <ul className="actions">
             <li>
