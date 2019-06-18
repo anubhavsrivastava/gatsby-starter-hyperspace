@@ -20,8 +20,8 @@ const IndexPage = () => (
           <p>
             Dependable Decentralized Global Transactions
           <br />
-            To get started, download your Dinero Desktop wallets{' '}
-            <a href="https://github.com/dinerocoin/dinero/releases">Here</a>.
+            To view current DINERO Blockchain Transactions, click{' '}
+            <a href="http://explorer.dinerocoin.org/">here</a>.
           </p>
           <ul className="actions">
             <li>
