@@ -149,7 +149,11 @@ const IndexPage = () => (
               <h3>Exchanges</h3>
               <p>
               <br />
-                CryptoBridge{' '}
+                DINERO is listed on the following Exchanges:{' '}
+              <br>
+              <br />
+              <a href="https://www.southxchange.com/Market/Book/DIN/BTC">Southxchange</a>.
+              <br />
               <a href="https://github.com/dinerocoin/dinero/releases">CryptoBridge</a>.
               </p>
             </section>
