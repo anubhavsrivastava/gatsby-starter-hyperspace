@@ -110,42 +110,37 @@ const IndexPage = () => (
           <div className="features">
             <section>
               <span className="icon major fa-code" />
-              <h3>Lorem ipsum amet</h3>
+              <h3>PRIVATE</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Your finances are your own business, DINERO ensures your transaction history and balances are private and secure.
               </p>
             </section>
             <section>
               <span className="icon major fa-lock" />
-              <h3>Aliquam sed nullam</h3>
+              <h3>SECURE</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Transactions are validated and secured by DINERO Miners and Dinero Masternodes Holders globally.
               </p>
             </section>
             <section>
               <span className="icon major fa-cog" />
-              <h3>Sed erat ullam corper</h3>
+              <h3>DECENTRALIZED</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Unlike banks, corporations or government controlled institutions, DINERO is DECENTRALIZED. It is ran by anyone who uses a DINERO Wallet, DINERO Miners and DINERO Masternode Holders.
               </p>
             </section>
             <section>
               <span className="icon major fa-desktop" />
-              <h3>Veroeros quis lorem</h3>
+              <h3>SCALABLE</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                DINERO is a SCALABLE cryptocurrency platform suitable for mass adoption.
               </p>
             </section>
             <section>
               <span className="icon major fa-chain" />
-              <h3>Urna quis bibendum</h3>
+              <h3>OPEN SOURCE</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                DINERO is OPEN-SOURCE that runs on non-proprietary servers, so there’s no need to rely on any company for continuous support. Anyone can review or contribute to DINERO’s source code on GitHub (https://github.com/dinerocoin/dinero).
               </p>
             </section>
             <section>
