@@ -17,7 +17,7 @@ const IndexPage = () => (
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
           <h1>
-            <a href="https://github.com/casterminator/gatsby-starter-hyperspace/blob/master/src/images/">
+            <a href="https://raw.githubusercontent.com/casterminator/gatsby-starter-hyperspace/master/src/images/DINERO%20Logo_White%20on%20violet.png">
               <img src="DINERO Logo_White on violet.png" alt="Dinero Coin" />
             </a>
           </h1>
