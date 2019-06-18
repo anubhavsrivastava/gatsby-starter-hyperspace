@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 
-import pic4 from '../images/Wallet_Macbook-Air-1200x690.png';
+import pic4 from '../images/pic04.jpg';
 import Header from '../components/Header';
 
 const SecondPage = () => (
