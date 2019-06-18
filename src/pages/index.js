@@ -37,9 +37,6 @@ const IndexPage = () => (
 
       <section id="one" className="wrapper style2 spotlights">
         <section>
-          <a href="/#" className="image" alt="image">
-            <img src={pic1} alt="" data-position="center center" />
-          </a>
           <div className="content">
             <div className="inner">
               <h2>About DINERO</h2>
