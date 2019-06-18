@@ -23,16 +23,13 @@ const IndexPage = () => (
           <p>
             Dependable Decentralized Global Transactions
           <br />
-            <a href="#one">here</a>.
           </p>
           <ul className="actions">
             <li>
-              <Scroll type="id" element="one">
-                <a href="http://explorer.dinerocoin.org/" className="button">
-                  Learn more
-                </a>
-              </Scroll>
-            </li>
+              <Link className="button" to="/generic">
+              Download Wallets
+              </Link>
+             </li>
           </ul>
         </div>
       </section>
