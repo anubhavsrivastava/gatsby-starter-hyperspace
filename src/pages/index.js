@@ -42,11 +42,9 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Sed ipsum dolor</h2>
+              <h2>About DINERO</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truely DECENTRALIZED Platform.
               </p>
               <ul className="actions">
                 <li>
@@ -64,11 +62,9 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Feugiat consequat</h2>
+              <h2>DINERO’s VISION</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                “We want to enable everybody to easily conduct financial transactions with anybody they choose with ease, privacy and dignity without the need to involve or seek permission from third parties”
               </p>
               <ul className="actions">
                 <li>
@@ -86,11 +82,9 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Ultricies aliquam</h2>
+              <h2>DINERO’s MISSION</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                “To enable Dinero users to prosper financially by providing a reliable decentralized financial services solution that is easy to use.”.
               </p>
               <ul className="actions">
                 <li>
