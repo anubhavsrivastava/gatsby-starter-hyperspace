@@ -26,7 +26,7 @@ const IndexPage = () => (
           <ul className="actions">
             <li>
               <Scroll type="id" element="one">
-                <a href="#one" className="button">
+                <a href="http://explorer.dinerocoin.org/" className="button">
                   Learn more
                 </a>
               </Scroll>
