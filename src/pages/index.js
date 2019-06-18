@@ -21,7 +21,7 @@ const IndexPage = () => (
             Dependable Decentralized Global Transactions
           <br />
             To view current DINERO Blockchain Transactions, click{' '}
-            <a href="http://explorer.dinerocoin.org/">here</a>.
+            <a href="#one">here</a>.
           </p>
           <ul className="actions">
             <li>
