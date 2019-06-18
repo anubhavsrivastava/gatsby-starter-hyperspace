@@ -148,13 +148,17 @@ const IndexPage = () => (
               <span className="icon major fa-exchange" />
               <h3>Exchanges</h3>
               <p>
-              <br />
-                DINERO is listed on the following Exchanges:{' '}
-              <br>
-              <br />
-              <a href="https://www.southxchange.com/Market/Book/DIN/BTC">Southxchange</a>.
-              <br />
-              <a href="https://github.com/dinerocoin/dinero/releases">CryptoBridge</a>.
+                {' '}
+                <a href="https://wallet.crypto-bridge.org/market/BRIDGE.DIN_BRIDGE.BTC">CryptoBridge</a>
+                <br />
+                {' '}
+                <a href="https://www.southxchange.com/Market/Book/DIN/BTC">SouthXchange</a>
+                <br />
+                {' '}
+                <a href="https://graviex.net/markets/dinbtc">Graviex</a>
+                <br />
+                {' '}
+                <a href="https://tradesatoshi.com/Exchange?market=DIN_BTC">TradeSatoshi</a>
               </p>
             </section>
           </div>
