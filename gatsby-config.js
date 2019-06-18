@@ -11,8 +11,8 @@ module.exports = {
         name: 'Hyperspace',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#ffffff',
+        background_color: '#000000',
+        theme_color: '#000000',
         display: 'standalone',
         icon: 'src/assets/img/din_web_icon_tprnt.png', // This path is relative to the root of the site.
       },
