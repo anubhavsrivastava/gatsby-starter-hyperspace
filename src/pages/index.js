@@ -109,10 +109,11 @@ const IndexPage = () => (
           </p>
           <div className="features">
             <section>
-              <span className="icon major fa-code" />
+              <span className="icon major fa-github" />
               <h3>OPEN SOURCE</h3>
               <p>
-                DINERO is OPEN-SOURCE that runs on non-proprietary servers, so there’s no need to rely on any company for continuous support. Anyone can review or contribute to DINERO’s source code on GitHub (https://github.com/dinerocoin/dinero).
+                DINERO is OPEN-SOURCE that runs on non-proprietary servers, so there’s no need to rely on any company for continuous support. Anyone can review or contribute to DINERO’s source code on{' '}
+            <a href="https://github.com/dinerocoin/dinero/releases">Github</a>.
               </p>
             </section>
             <section>
