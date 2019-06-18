@@ -8,6 +8,7 @@ import pic2 from '../images/pic02.jpg';
 import pic3 from '../images/pic03.jpg';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
+import Logo from '../images/DINERO Logo_White on violet.png';
 
 const IndexPage = () => (
   <Layout>
@@ -16,11 +17,9 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <h1>
-            <a href="https://raw.githubusercontent.com/casterminator/gatsby-starter-hyperspace/master/src/images/DINERO%20Logo_White%20on%20violet.png">
-              <img src="DINERO Logo_White on violet.png" alt="Dinero Coin" />
-            </a>
-          </h1>
+          <a href="/#" className="image">
+            <img src={Logo} alt="" data-position="25% 25%" />
+          </a>
           <p>
             Dependable Decentralized Global Transactions
           <br />
