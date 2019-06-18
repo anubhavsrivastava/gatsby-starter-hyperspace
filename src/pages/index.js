@@ -110,9 +110,9 @@ const IndexPage = () => (
           <div className="features">
             <section>
               <span className="icon major fa-code" />
-              <h3>PRIVATE</h3>
+              <h3>OPEN SOURCE</h3>
               <p>
-                Your finances are your own business, DINERO ensures your transaction history and balances are private and secure.
+                DINERO is OPEN-SOURCE that runs on non-proprietary servers, so there’s no need to rely on any company for continuous support. Anyone can review or contribute to DINERO’s source code on GitHub (https://github.com/dinerocoin/dinero).
               </p>
             </section>
             <section>
@@ -138,9 +138,9 @@ const IndexPage = () => (
             </section>
             <section>
               <span className="icon major fa-chain" />
-              <h3>OPEN SOURCE</h3>
+              <h3>PRIVATE</h3>
               <p>
-                DINERO is OPEN-SOURCE that runs on non-proprietary servers, so there’s no need to rely on any company for continuous support. Anyone can review or contribute to DINERO’s source code on GitHub (https://github.com/dinerocoin/dinero).
+                Your finances are your own business, DINERO ensures your transaction history and balances are private and secure.
               </p>
             </section>
             <section>
