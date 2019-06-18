@@ -16,13 +16,12 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <h1>Dinero Coin</h1>
+          <h1>Dinero</h1>
           <p>
-            Just another fine responsive site template designed by{' '}
-            <a href="http://html5up.net">HTML5 UP</a>
+            Dependable Decentralized Global Transactions
             <br />
-            and released for free under the{' '}
-            <a href="http://html5up.net/license">Creative Commons</a>.
+            To get started, download your Desktop wallets from our Github{' '}
+            <a href="https://github.com/dinerocoin/dinero/releases">Creative Commons</a>.
           </p>
           <ul className="actions">
             <li>
