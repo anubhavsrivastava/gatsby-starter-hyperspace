@@ -145,11 +145,13 @@ const IndexPage = () => (
               </p>
             </section>
             <section>
-              <span className="icon major fa-diamond" />
-              <h3>Aliquam urna dapibus</h3>
+              <span className="icon major fa-exchange" />
+              <h3>Exchanges</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                CryptoBridge{' '}
+              <a href="https://github.com/dinerocoin/dinero/releases">CryptoBridge</a>.
+              </br>        
+  
               </p>
             </section>
           </div>
