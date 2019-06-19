@@ -26,10 +26,10 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <Link className="button" to="/generic">
-              Download Wallets
-              </Link>
-             </li>
+              <a href="https://github.com/dinerocoin/dinero/releases" class="button icon fa-download">
+                Desktop Wallet Releases (Win32/64, Linux32/64, MacOS64)
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -44,7 +44,7 @@ const IndexPage = () => (
               </p>
               <ul className="actions">
               <li>
-                <a href="https://github.com/dinerocoin/Dinero-Whitepaper/raw/master/Dinero-WhitePaper-v3.pdf" class="button icon fa-upload">
+                <a href="https://github.com/dinerocoin/Dinero-Whitepaper/raw/master/Dinero-WhitePaper-v3.pdf" class="button icon fa-download">
                   Dinero Whitepaper v3
                 </a>
               </li>
