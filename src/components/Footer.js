@@ -7,7 +7,7 @@ const Footer = () => (
       <ul className="menu">
         <li>Dinero Coin Project. All rights reserved 2019.</li>
         <li>
-          Design: <a href="https://github.com/anubhavsrivastava/gatsby-starter-hyperspace">Anubhav Srivastava</a>
+          Forked from: <a href="https://github.com/anubhavsrivastava/gatsby-starter-hyperspace">Anubhav Srivastava</a>
         </li>
         <li>
           <a href="https://github.com/dinerocoin/Dinero-Docs/blob/master/Dinero_Privacy_Policy.pdf">Privacy Policy</a>
