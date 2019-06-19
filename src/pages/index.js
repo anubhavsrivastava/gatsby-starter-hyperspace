@@ -172,12 +172,16 @@ const IndexPage = () => (
               <ul className="contact">
                 <li>
                   <h3>Chat</h3>
-                  <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
-                    Discord
-                  </a>
-                  <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" class="button icon fa-telegram">
-                    TeleGram
-                  </a>
+                    <li>
+                      <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
+                        Discord
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" class="button icon fa-telegram">
+                        TeleGram
+                      </a>
+                    </li>
                 </li>
                 <li>
                   <h3>Email</h3>
@@ -224,31 +228,6 @@ const IndexPage = () => (
                   </ul>
                 </li>
               </ul>
-            </section>
-            <section>
-              <form method="post" action="#">
-                <div className="fields">
-                  <div className="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                  </div>
-                  <div className="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                  </div>
-                  <div className="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" />
-                  </div>
-                </div>
-                <ul className="actions">
-                  <li>
-                    <a href="/#" className="button submit">
-                      Send Message
-                    </a>
-                  </li>
-                </ul>
-              </form>
             </section>
           </div>
         </div>
