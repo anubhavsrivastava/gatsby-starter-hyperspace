@@ -135,7 +135,7 @@ const IndexPage = () => (
             </section>
             <section>
               <span className="icon major fa-exchange" />
-              <h3>Exchanges</h3>
+              <h3>Get DINERO on the following EXCHANGES</h3>
               <p>
                 {' '}
                 <a href="https://wallet.crypto-bridge.org/market/BRIDGE.DIN_BRIDGE.BTC">CryptoBridge</a>
@@ -197,34 +197,44 @@ const IndexPage = () => (
               <ul className="contact">
                 <li>
                   <h3>Email</h3>
-                  <a href="/#">dev@dinerocoin.org</a>
+                  <a href="/#">support@dinerocoin.org</a>
                 </li>
                 <li>
                   <h3>Social</h3>
                   <ul className="icons">
                     <li>
-                      <a href="/#" className="fa-twitter">
+                      <a href="https://twitter.com/DineroCrypto" className="fa-twitter">
                         <span className="label">Twitter</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-facebook">
+                      <a href="https://www.facebook.com/DineroCrypto-225049868053385/" className="fa-facebook">
                         <span className="label">Facebook</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-github">
+                      <a href="https://github.com/dinerocoin" className="fa-github">
                         <span className="label">GitHub</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-instagram">
-                        <span className="label">Instagram</span>
+                      <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" className="fa-telegram">
+                        <span className="label">Telegram</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-linkedin">
-                        <span className="label">LinkedIn</span>
+                      <a href="https://www.reddit.com/r/Dinerocoin/" className="fa-reddit">
+                        <span className="label">Reddit</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoj95EkI69ojMjXZqy95BWA" className="fa-youtube">
+                        <span className="label">YouTube</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://discordapp.com/invite/EJkEC9g" className="fa-medkit">
+                        <span className="label">Discord</span>
                       </a>
                     </li>
                   </ul>
