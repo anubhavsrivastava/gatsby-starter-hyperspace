@@ -27,7 +27,7 @@ const IndexPage = () => (
           <ul className="actions">
             <li>
               <a href="https://github.com/dinerocoin/dinero/releases" class="button icon fa-download">
-                Desktop Wallets v1.0.1.1
+                Desktop Wallets (v1.0.1.1)
               </a>
             </li>
           </ul>
@@ -118,7 +118,7 @@ const IndexPage = () => (
               <p>
                 Transactions are validated and secured by DINERO Miners and Dinero Masternodes Holders globally.
                 <li>
-                  <a href="http://explorer.dinerocoin.org/" class="button icon fa-download">
+                  <a href="http://explorer.dinerocoin.org/" class="button icon fa-external-link">
                     Dinero Blockchain Explorer
                   </a>
                 </li>
