@@ -185,7 +185,7 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Email</h3>
-                  <a href="/#">support@dinerocoin.org</a>
+                  <a href="mailto:support@dinerocoin.org">support@dinerocoin.org</a>
                 </li>
                 <li>
                   <h3>Social</h3>
