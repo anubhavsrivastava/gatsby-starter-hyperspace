@@ -35,6 +35,11 @@ const IndexPage = () => (
                 Dinero Blockchain Explorer
               </a>
             </li>
+            <li>
+              <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
+                Dinero Discord
+              </a>
+            </li>
           </ul>
         </div>
       </section>
