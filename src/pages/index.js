@@ -36,8 +36,13 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
+              <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-users">
                 Dinero Discord
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/dinerocoin/Mining-Pools" class="button icon fa-microchip">
+                Mining Pools
               </a>
             </li>
           </ul>
@@ -120,21 +125,21 @@ const IndexPage = () => (
               </p>
             </section>
             <section>
-              <span className="icon major fa-desktop" />
+              <span className="icon major fa-expand" />
               <h3>SCALABLE</h3>
               <p>
                 DINERO is a SCALABLE cryptocurrency platform suitable for mass adoption.
               </p>
             </section>
             <section>
-              <span className="icon major fa-chain" />
+              <span className="icon major fa-user-secret" />
               <h3>PRIVATE</h3>
               <p>
                 Your finances are your own business, DINERO ensures your transaction history and balances are private and secure.
               </p>
             </section>
             <section>
-              <span className="icon major fa-exchange" />
+              <span className="icon major fa-line-chart" />
               <h3>Get DINERO on the following EXCHANGES</h3>
               <p>
                 {' '}
@@ -221,7 +226,7 @@ const IndexPage = () => (
                       </a>
                     </li>
                     <li>
-                      <a href="https://discordapp.com/invite/EJkEC9g" className="fa-medkit">
+                      <a href="https://discordapp.com/invite/EJkEC9g" className="fa-users">
                         <span className="label">Discord</span>
                       </a>
                     </li>
