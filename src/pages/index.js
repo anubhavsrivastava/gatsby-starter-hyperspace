@@ -36,11 +36,6 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-users">
-                Dinero Discord
-              </a>
-            </li>
-            <li>
               <a href="https://github.com/dinerocoin/Mining-Pools" class="button icon fa-microchip">
                 Mining Pools
               </a>
