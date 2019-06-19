@@ -50,7 +50,7 @@ const IndexPage = () => (
             <div className="inner">
               <h2>About DINERO</h2>
               <p>
-                Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truely DECENTRALIZED Platform.
+                Dinero is an open source cryptocurrency based on Bitcoin and Dash which provides fast private transactions along with a low to no transaction fees. Dinero incorporates many of the improvements which Dash has made on top of Bitcoin as well as the addition of an ASIC resistant hashing algorithm called NeoScrypt to avoid any undue centralisation of mining resources. 
               </p>
               <ul className="actions">
               <li>
@@ -94,7 +94,7 @@ const IndexPage = () => (
         <div className="inner">
           <h2>What we do</h2>
           <p>
-            Dinero is an open source cryptocurrency based on Bitcoin and Dash codes which provides fast private transactions along with a low to no transaction fees. Dinero incorporates many of the improvements which Dash has made on top of Bitcoin as well as the addition of an ASIC resistant hashing algorithm called NeoScrypt to avoid any undue centralisation of mining resources. 
+            Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truely DECENTRALIZED Platform.
           </p>
           <div className="features">
             <section>
