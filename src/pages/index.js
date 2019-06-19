@@ -171,6 +171,15 @@ const IndexPage = () => (
             <section>
               <ul className="contact">
                 <li>
+                  <h3>Chat</h3>
+                  <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
+                    Discord
+                  </a>
+                  <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" class="button icon fa-telegram">
+                    TeleGram
+                  </a>
+                </li>
+                <li>
                   <h3>Email</h3>
                   <a href="/#">support@dinerocoin.org</a>
                 </li>
