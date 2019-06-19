@@ -94,7 +94,7 @@ const IndexPage = () => (
         <div className="inner">
           <h2>What we do</h2>
           <p>
-            Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truely DECENTRALIZED Platform.
+            Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truly DECENTRALIZED Platform.
           </p>
           <div className="features">
             <section>
@@ -116,7 +116,7 @@ const IndexPage = () => (
               <span className="icon major fa-cog" />
               <h3>DECENTRALIZED</h3>
               <p>
-                Unlike banks, corporations or government controlled institutions, DINERO is DECENTRALIZED. It is ran by anyone who uses a DINERO Wallet, DINERO Miners and DINERO Masternode Holders.
+                Unlike banks, corporations or government controlled institutions, DINERO is DECENTRALIZED. It is run by anyone who uses a DINERO Wallet, DINERO Miners and DINERO Masternode Holders.
               </p>
             </section>
             <section>
@@ -165,7 +165,7 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Contact Us</h2>
           <p>
-          Please read the FAQ section before contacting us. DINERO CANNOT help with any type of passphrase problems. If you lose your passphrase your DIN is gone forever! Feel free to contact us with any other questions or join Discord for live support from our community.
+          NOTE: DINERO CANNOT help with any type of passphrase problems. If you lose your passphrase your DIN is gone forever! Feel free to contact us with any other questions or join Discord for live support from our community.
           </p>
           <div className="split style1">
             <section>
