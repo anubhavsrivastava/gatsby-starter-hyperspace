@@ -153,10 +153,10 @@ const IndexPage = () => (
           </div>
           <ul className="actions">
             <li>
-              <Link className="button" to="/generic">
-              Download Wallets
-              </Link>
-             </li>
+              <a href="https://github.com/dinerocoin/dinero/releases" class="button icon fa-download">
+                Download Dinero Wallets
+              </a>
+            </li>
           </ul>
         </div>
       </section>
