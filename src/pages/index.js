@@ -175,19 +175,17 @@ const IndexPage = () => (
           <div className="split style1">
             <section>
               <ul className="contact">
-                <li>
-                  <h3>Chat</h3>
-                    <li>
-                      <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
-                        Discord
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" class="button icon fa-telegram">
-                        TeleGram
-                      </a>
-                    </li>
-                </li>
+                <h3>Chat</h3>
+                  <li>
+                    <a href="https://discordapp.com/invite/EJkEC9g" class="button icon fa-discord">
+                      Discord
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://t.me/joinchat/IKqX_wsLjpx7g6o5beM30Q" class="button icon fa-telegram">
+                      TeleGram
+                    </a>
+                  </li>
                 <li>
                   <h3>Email</h3>
                   <a href="mailto:support@dinerocoin.org">support@dinerocoin.org</a>
