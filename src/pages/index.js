@@ -140,7 +140,7 @@ const IndexPage = () => (
             </section>
             <section>
               <span className="icon major fa-line-chart" />
-              <h3>Get DINERO on the following EXCHANGES</h3>
+              <h3>DINERO EXCHANGE Listings</h3>
               <p>
                 {' '}
                 <a href="https://wallet.crypto-bridge.org/market/BRIDGE.DIN_BRIDGE.BTC">CryptoBridge</a>
