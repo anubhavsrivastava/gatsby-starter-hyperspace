@@ -43,11 +43,11 @@ const IndexPage = () => (
                 Dinero is a cryptocurrency which enables anonymous instant payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. What is Dinero’s advantage over other cryptocurrencies? Truely DECENTRALIZED Platform.
               </p>
               <ul className="actions">
-                <li>
-                  <Link className="button" to="/generic">
-                    Learn more
-                  </Link>
-                </li>
+              <li>
+                <a href="https://github.com/dinerocoin/Dinero-Whitepaper/raw/master/Dinero-WhitePaper-v3.pdf" class="button icon fa-upload">
+                  Dinero Whitepaper v3
+                </a>
+              </li>
               </ul>
             </div>
           </div>
