@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/gatsby-starter-hyperspace/`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
     title: 'Dinero Coin - CryptoCurrency - Private Instant Payments Globally - Masternodes',
   },
@@ -9,7 +8,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'DINERO',
-        short_name: 'starter',
+        short_name: 'DINERO',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#000000',
