@@ -10,7 +10,7 @@ const Footer = () => (
           Design: <a href="https://github.com/anubhavsrivastava/gatsby-starter-hyperspace">Anubhav Srivastava</a>
         </li>
         <li>
-          <a href="https://github.com/dinerocoin/Dinero-Docs/raw/master/Dinero_Privacy_Policy.pdf">Privacy Policy</a>
+          <a href="https://github.com/dinerocoin/Dinero-Docs/blob/master/Dinero_Privacy_Policy.pdf">Privacy Policy</a>
         </li>
       </ul>
     </div>
