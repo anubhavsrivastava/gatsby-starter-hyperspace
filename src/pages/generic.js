@@ -1,11 +1,11 @@
 import React from 'react';
-// import { Link } from 'gatsby'
-
-import Layout from '../components/layout';
-import Footer from '../components/Footer';
 
 import pic4 from '../images/pic04.jpg';
-import Header from '../components/Header';
+
+import Layout from '../components/common/layout';
+import Footer from '../components/common/Footer';
+import Header from '../components/common/Header';
+
 
 const SecondPage = () => (
   <Layout>
