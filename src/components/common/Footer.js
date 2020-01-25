@@ -1,6 +1,7 @@
 import React from 'react';
 
-import '../assets/sass/main.scss';
+import '../../assets/sass/main.scss';
+
 const Footer = () => (
   <footer id="footer" className="wrapper style1-alt">
     <div className="inner">

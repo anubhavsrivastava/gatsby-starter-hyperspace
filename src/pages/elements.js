@@ -1,9 +1,8 @@
 import React from 'react';
-// import { Link } from 'gatsby'
 
-import Layout from '../components/layout';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Layout from '../components/common/layout';
+import Footer from '../components/common/Footer';
+import Header from '../components/common/Header';
 
 const SecondPage = () => (
   <Layout>
@@ -412,7 +411,7 @@ const SecondPage = () => (
                     name="demo-priority"
                     checked
                   />
-                  <label for="demo-priority-low">Low</label>
+                  <label htmlFor="demo-priority-low">Low</label>
                 </div>
                 <div class="col-4 col-12-small">
                   <input
@@ -420,7 +419,7 @@ const SecondPage = () => (
                     id="demo-priority-normal"
                     name="demo-priority"
                   />
-                  <label for="demo-priority-normal">Normal</label>
+                  <label htmlFor="demo-priority-normal">Normal</label>
                 </div>
                 <div class="col-4 col-12-small">
                   <input
@@ -428,11 +427,11 @@ const SecondPage = () => (
                     id="demo-priority-high"
                     name="demo-priority"
                   />
-                  <label for="demo-priority-high">High</label>
+                  <label htmlFor="demo-priority-high">High</label>
                 </div>
                 <div class="col-6 col-12-small">
                   <input type="checkbox" id="demo-copy" name="demo-copy" />
-                  <label for="demo-copy">Email me a copy</label>
+                  <label htmlFor="demo-copy">Email me a copy</label>
                 </div>
                 <div class="col-6 col-12-small">
                   <input
@@ -441,7 +440,7 @@ const SecondPage = () => (
                     name="demo-human"
                     checked
                   />
-                  <label for="demo-human">Not a robot</label>
+                  <label htmlFor="demo-human">Not a robot</label>
                 </div>
                 <div class="col-12">
                   <textarea
